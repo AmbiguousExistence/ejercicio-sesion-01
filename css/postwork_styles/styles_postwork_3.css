@@ -1,0 +1,70 @@
+body {
+    background-color: #a1d683;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainDiv {
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    height: 60%;
+}
+
+.mainDiv button {
+    color: #fff;
+    background-color: rgb(12, 85, 34);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainDiv img {
+    width: 100px;
+    height: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.cardName {
+    color: rgb(12, 85, 34);
+    font-size: 18;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #fff;
+    background-color: rgb(12, 85, 34);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
