@@ -20,6 +20,10 @@ button {
   background-color: #025157;
 }
 
+button:hover {
+  background-color: #67b54b;
+}
+
 .header {
   /* margin-top: 40px;
   margin-left: 20px;
@@ -52,11 +56,11 @@ li {
 }
 
 .logo {
-  width: 25%;
+  width: 15%;
 }
 
 .logo > img {
-  width: 10%;
+  width: 15%;
 }
 
 /* .navbar {
@@ -363,6 +367,8 @@ li {
   object-fit: contain;
   width: 100%;
 }
+
+/* Inician media queries */
 
 @media (max-width: 991px) {
   .success-stories {

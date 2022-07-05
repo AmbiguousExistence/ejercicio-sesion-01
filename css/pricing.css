@@ -21,6 +21,11 @@ h1 {
     margin-bottom: 72px;
 }
 
+li {
+  display: inline;
+  margin: 0 25px 0;
+}
+
 main {
     margin-top: 285px;
     text-align: center;
